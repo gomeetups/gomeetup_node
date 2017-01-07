@@ -1,0 +1,28 @@
+{
+  "name": "gomeetup",
+  "version": "0.0.1",
+  "description": "meetup app using node6 + vue",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archanks/gomeetup.git"
+  },
+  "keywords": [
+    "node",
+    "vue"
+  ],
+  "author": "Archana Kumar <archanks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archanks/gomeetup/issues"
+  },
+  "homepage": "https://github.com/archanks/gomeetup#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "cookie-parser": "1.4.3",
+    "express": "4.14.0"
+  }
+}
