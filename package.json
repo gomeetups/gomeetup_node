@@ -2,11 +2,9 @@
   "name": "gomeetup",
   "version": "0.0.1",
   "description": "meetup app using node6 + vue",
-  "main": "./src/server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "ava",
-    "start": "pm2 start process.yml",
-    "stop": "pm2 stop src/server.js"
+    "test": "ava"
   },
   "repository": {
     "type": "git",

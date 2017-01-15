@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
-const appInfo = require('../package.json');
+const appInfo = require('./package.json');
 const app = express();
 let port = process.env.PORT || 3000;
 
